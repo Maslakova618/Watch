@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+	width: 320px;
+	min-height: 758px;
+	border: 1px solid red;
+	background-color: rgb(11, 11, 12);
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 2em 0.5em 1em 0.5em;
+}
+.rolex{
+	color: rgb(190, 137, 112);
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	border: 0.1px solid rgb(143, 119, 97);
+	border-left: none;
+	border-right: none;
+}
+.title{
+	display: flex;
+	justify-content: space-between;
+	margin: 2em 0.7em 0em 0.7em;
+}
+.title h2{
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+}
+.title h3{
+	color: rgb(190, 137, 112);
+	margin-top: 0.5em;
+	font-weight: 200;
+	font-size: 15px;
+}
+/* - - - - - - - - блок с часами  - - - - - - - -*/
+.block{
+	display: block;
+	text-align: center;
+	width: 77%;
+	height: 24em;
+	background: linear-gradient(127deg, rgb(77, 77, 77) 0%, rgb(19, 19, 19) 100%);
+	margin: 1em 2em 0 1em;
+	border-radius: 2%;
+}
+.block h2{
+	color: rgb(190, 137, 112);
+	font-size: 20px;
+	font-weight: 200;
+	margin-top: 0.6em;
+}
+.block h4{
+	color: rgb(212, 212, 212);
+	padding-left: 1em;
+	font-weight: 200;
+	font-size: 14px;
+	padding-top: 0.4em;
+}
+.block h6{
+	color: rgb(190, 137, 112);
+	font-weight: 200;
+	font-size: 17px;
+	padding-top: 0.4em;
+}
+.img1{
+	margin-top: 1em;
+	margin-left: 2em;
+}
+.img2{
+	position: relative;
+	margin-bottom: 15em;
+}
+.block1{
+	border: 0.5px solid rgb(41, 41, 41);
+	display: none;
+}
+.vmeste{
+	display: flex;
+}
+/* - - - - - - низ - - - - - - - - -*/
+.h2-watches{
+	color: white;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 1.5em;
+	margin-left: 0.8em;
+}
+.block3{
+	width: 90%;
+	min-height: 10em;
+	background: rgb(69,69,69);
+	background: linear-gradient(127deg, rgba(14,14,14,1) 0%, rgb(37, 37, 37) 100%);
+	border: 1px solid rgb(54, 54, 54);
+	margin-left: 1em;
+	margin-top: 1em;
+	border-radius: 2%;
+}
+.block3{
+	display: flex;
+}
+.title1{
+	color: rgb(190, 137, 112);
+	font-weight: 100;
+	font-size: 15px;
+	margin-bottom: 0.8em;
+}
+.title-p{
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 0.3em;
+}
+.price2{
+	color: rgb(190, 137, 112);
+	font-weight: 100;
+	font-size: 18px;
+	margin-top: 1.5em;
+}
+.text1{
+	margin: 2em 0 0 0;
+}
+.img12{
+	padding: 1em 1em 0 1.5em;
+}

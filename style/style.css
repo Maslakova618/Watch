@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+	max-width: 320px;
+	max-height: 758px;
+}
+body {
+	border: 1px solid red;
+	background-color: rgb(11, 11, 12);
+}
+.shap{
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 1em 1em 1em;
+}
+/* - - - - - - -  часы и кружки - - - - - - -- - */
+.watch-and-krug{
+	display: flex;
+	margin-top: 2em;
+}
+.img1{
+	margin-left: 1em;
+	margin-left: 2em;
+	width: 70%;
+}
+.krushochki{
+	margin-top: 7em;
+	margin-left: 1em;
+}
+.krug{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: rgb(47, 54, 56);
+	margin-bottom: 0.5em;
+	margin-left: 0.1em;
+}
+.krug-o{
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background-color: rgb(202, 164, 129);
+	margin-bottom: 0.6em;
+}
+/* - - - - - - -  табличка с ценой - - - - - - -- - */
+.gmt-master{
+	width: 90%;
+	min-height: 12em;
+	background: rgb(69,69,69);
+	background: linear-gradient(127deg, rgb(77, 77, 77) 0%, rgba(14,14,14,1) 100%);
+	margin-left: 1em;
+	margin-top: 2em;
+	border-radius: 2%;
+}
+.title{
+	width: 100%;
+	height: 1em;
+	display: flex;
+	padding: 1em 0.5em 1em 1em;
+}
+.title h2{
+	color: rgb(190, 137, 112);
+	font-size: 15px;
+	font-weight: 200;
+}
+.title p{
+	color: rgb(150, 150, 150);
+	font-size: 10px;
+	margin-top: 0.5em;
+	margin-left: 8em;
+}
+.gmt-master h4{
+	color: rgb(212, 212, 212);
+	padding-left: 0.5em;
+	font-weight: 200;
+	font-size: 14px;
+	padding-top: 0.2em;
+}
+.gmt-master p{
+	color: rgb(170, 170, 170);
+	padding-left: 0.5em;
+	font-weight: 200;
+	font-size: 10px;
+	padding-top: 1em;
+}
+.gmt-master h5{
+	color: rgb(190, 137, 112);
+	padding-left: 0.5em;
+	font-weight: 200;
+	font-size: 10px;
+	padding-top: 1em;
+}
+.gmt-master h6{
+	color: rgb(190, 137, 112);
+	padding-left: 0.5em;
+	font-weight: 200;
+	font-size: 14px;
+	padding-top: 0.2em;
+}
+.button{
+	position: relative;
+	background-color: rgb(214, 196, 161);
+	text-decoration: none;
+	padding: 0.8em 2em 0.8em 2em;
+	color: rgb(11, 11, 12);
+	margin-left: 8em;
+	border-radius: 2%;
+}

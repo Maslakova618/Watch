@@ -14,7 +14,7 @@ header{
 	padding: 2em 0.5em 1em 0.5em;
 }
 .rolex{
-	color: rgb(190, 137, 112);
+	color: rgb(221, 181, 128);
 	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
@@ -34,7 +34,7 @@ header{
 	font-size: 18px;
 }
 .title h3{
-	color: rgb(190, 137, 112);
+	color: rgb(221, 181, 128);
 	margin-top: 0.5em;
 	font-weight: 200;
 	font-size: 15px;
@@ -50,7 +50,7 @@ header{
 	border-radius: 2%;
 }
 .block h2{
-	color: rgb(190, 137, 112);
+	color: rgb(221, 181, 128);
 	font-size: 20px;
 	font-weight: 200;
 	margin-top: 0.6em;
@@ -63,7 +63,7 @@ header{
 	padding-top: 0.4em;
 }
 .block h6{
-	color: rgb(190, 137, 112);
+	color: rgb(221, 181, 128);
 	font-weight: 200;
 	font-size: 17px;
 	padding-top: 0.4em;
@@ -105,7 +105,7 @@ header{
 	display: flex;
 }
 .title1{
-	color: rgb(190, 137, 112);
+	color: rgb(221, 181, 128);
 	font-weight: 100;
 	font-size: 15px;
 	margin-bottom: 0.8em;
